@@ -16,6 +16,7 @@ Commands already known:
 
 
 Other useful ones:
+
 1. `git log` - Shows the log of commits for the entire repo.
 2. `git diff entity1 entity2` - compares git changes for the respective entities. They could be files/folders.
 3. `git commit -a` - Edits the git-commit file to sync changes along with user messages and files/folders changed. Git auto-tracks changes across the repo including new additions/fresh commits.
