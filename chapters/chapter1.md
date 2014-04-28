@@ -62,7 +62,9 @@ Viewing changes
 
 Self-explanatory.
 
-	~/myrepo$ git status -h
+Repo Status
+
+	~/myrepo$ git status
 	On branch master
 	Your branch is up-to-date with 'origin/master'.
 	
@@ -70,6 +72,7 @@ Self-explanatory.
 	 (use "git add <file>..." to include in what will be committed)
 
 
+Commit History
 
 	~/myrepo$ git log
 
