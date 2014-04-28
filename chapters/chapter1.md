@@ -57,5 +57,38 @@ Some additional info:
 
 You can also avail `git commit -a` for a simple pop up in your favourite editor of choice where you can edit commit messages and file tracking in the commit. Note that all lines beginning with a `#` in the COMMITMSG file are omitted during freezing.
 
+Viewing changes
+---------------
+
+Self-explanatory.
+
+	~/myrepo$ git status -h
+	On branch master
+	Your branch is up-to-date with 'origin/master'.
+	
+	Untracked files:
+	 (use "git add <file>..." to include in what will be committed)
+
+
+
+	~/myrepo$ git log
+
+	commit 3487f56167da093366423490a2b8f102461ce95a
+	Author: myusername <user@email.com>
+	Date:   Mon Apr 28 16:25:39 2014 +0530
+	
+	        modified:   chapter1.md
+	
+	commit b0cc579fad685948c40015fd613a1fbd8534c01c
+	Author: myusername <user@email.com>
+	Date:   Mon Apr 28 16:13:04 2014 +0530
+	
+		Added Chapter 1
+	
+	commit 258e80c98a6cb8538036e2adf0eae532aa596ce0
+	Author: myusername <user@email.com>
+	Date:   Mon Apr 28 15:20:28 2014 +0530
+	
+	        modified:   README.md
 
 
