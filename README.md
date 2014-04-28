@@ -1,23 +1,21 @@
 Git Training
 ------------
 
-Welcome to a boring, useless page on experiments of git during a basic training course!
+Welcome to a boring, useless experiment of learning git in the form of a training course.
 
-In this course, I''d be doing some simple commands to learn and explore the awesome git-svn. Do spend some time learning them yourself.
+In this course, I''d be running some simple commands to learn and explore the awesome git-svn. 
 
-Commands already known or used frequently:
+I''d be touching upon learning how to use git by executing git commands inclusive of this repository. Expect some changes here and there as they go with the flow of git and how git operates.
 
-1. `git init`
-2. `git add`
-3. `git remote add <remote_name_on_local> <.git URL to be added>`
-4. `git commit -m "your commit message"`
-4. `git push <remote_name_on_local> <branch_to_be_pushed_in_remote>`
-5. `git pull <remote_name_on_local> <branch_to_be_pulled_from_remote>`
+All committed changes are synchronized with this repository which means, if you create a new branch locally, you''d be seeing that new branch here as well, including the changes.
 
+Instructions are segregated in the form of chapters. Go through each one of them to understand what I did and why it reflected like that.
 
-Other useful ones:
+Note: You need to practice along with this tutorial. If you believe you can learn by skimming through, please close the link.
 
-1. `git log`
-2. `git diff entity1 entity2`
-3. `git commit -a`
+Suitable for beginners and non-git users. For the know-how of git refer to http://git-scm.com/doc. I won''t be touching upon these to make you know how git is designed and behaves like that.
+
+You might also observe some intricate things as to how to create a git-remote repository, why are licenses attached to repos and how the folders are structured.
+
+Enjoy!
 
