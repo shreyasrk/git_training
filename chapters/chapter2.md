@@ -20,6 +20,12 @@ Once you know you've to work on a certain repo created by others, it is your dut
 5. Now, whenever you're developing, sync changes from `main` remote and initiate a `git push origin <branch>` (YOUR forked repo only).
 6. Once all changes are commited to your repo, initiate a `pull request` in GitHub. The user will now see all the changes made by you in the pull request and then *merges* with his repo thereby freezing your changes. 
 
+Remember the golden rule: 
+
+	pull from main; push to origin; send pull request
+
+> If your own changes aren't reflecting it is a good practice to pull your `origin` changes also.
+
 > Working with your own repos is easier. Just clone it, work on it and then push the changes on the same remote itself. No hassles of maintaining different remotes. No hassles of pull requests.
 
 Synchronizing
