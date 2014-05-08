@@ -43,8 +43,8 @@ Going a step ahead, here is a protocol strictly followed to sync changes across 
 5. Push this to `origin`: `git push origin new-branch`
 6. Initiate pull request to the `main` repo after you're convinced that 
 
-	a. New branch exists in GitHub for forked repo.
-	b. Changes done in the new-branch are visible in GitHub.
+	* New branch exists in GitHub for forked repo.
+	* Changes done in the new-branch are visible in GitHub.
 
 7. That's it. Track Comments in submitted pull requests and then re-work if needed.
 
