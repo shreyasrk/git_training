@@ -27,27 +27,30 @@ Remote Links:
 -------------
 
 A powerful feature that `git` provides is that of remote committing. You can now transfer all your local commits to a remote location for safety and portability. 
-> Although this feature is most prominently used, it isn't necessary to work with a remote link at all. You can save the commits locally too. Git can then combine all the commits into one single package and versions them accordingly to the commit done.
+> Although this feature is most prominently used, it isn't necessary to work with a remote link at all. You can save the commits locally too. 
+> If you want to push commits in one go, git can push every commit and versions them accordingly to the commit done. See `git log` to verify.
 
 Working with remotes
 --------------------
 
 Remote repositories can be either be created or cloned. 
 
-> Cloning repos is the most simplest way. Just go to any git-remote repository hosting solutions such as GitHub, BitBucket and create a repo there and simply clone it off to your local machine! `git` then copies the contents of the remote repo into your machine and attaches a git-scm system to it automatically. You can now continue to work on the repo without any primitive changes! Because of this feature, git is extremely portable across machines.
+Cloning repos is the most simplest way. Just go to any git-remote repository hosting solutions such as GitHub, BitBucket and create a repo there and clone it to your local machine. `git` then copies the contents of the remote repo into your machine and attaches a git-scm system to it automatically! You can now continue to work on the repo without any primitive changes! 
+
+> Because of this feature, git is extremely portable across machines.
 
 	git clone <URL_for_the_repo>
 
-The other way is to create your repo locally, make a remote repo with the same name as that of the repo and then simply pushing it there.
+The other way is to create your repo locally, make a remote repo with the same name as that of the local repo and then simply push it there.
 
-	     ~$ mkdir myrepo
-	     ~$ cd myrepo/
-	~/repo$ git init
-	~/repo$ touch sample.txt
+	     ~$ mkdir repo
+	     ~$ cd repo/
+	~/repo$ git init           # Initializes git system
+	~/repo$ touch sample.txt   # Add a file to demonstrate
 	~/repo$ git add sample.txt
-	~/repo$ git commit -m "First Commit"
-	~/repo$ git remote add origin https://github.com/username/myrepo.git
-	~/repo$ git push -u origin master
+	~/repo$ git commit -m "First Commit"  # Freeze changes
+	~/repo$ git remote add origin https://github.com/username/myrepo.git # Configuring remote repo
+	~/repo$ git push -u origin master     # Pushing to remote
 
 Some additional info:
 --------------------
