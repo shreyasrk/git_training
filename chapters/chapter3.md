@@ -46,7 +46,7 @@ Going a step ahead, here is a protocol strictly followed to sync changes across 
 	* New branch exists in GitHub for forked repo.
 	* Changes done in the new-branch are visible in GitHub.
 
-7. That's it. Track Comments in submitted pull requests and then re-work if needed.
+That's it! Track Comments in submitted pull requests and then re-work if needed.
 
 
 
