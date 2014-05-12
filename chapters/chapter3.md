@@ -1,5 +1,5 @@
-Branching in Git
-----------------
+Branching
+=========
 
 One of the important requirements in a scm system is of creating independent work systems within a same repo. These are termed as branches. Branches comprise of all the source code [usually from a parent branch - `master`] along with other specific changes pertaining to it's own features. Branches are created to maintain separate links to all changes done to the code so that tracking becomes easier during bugfix/error time.
 
