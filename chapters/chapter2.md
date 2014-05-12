@@ -1,5 +1,5 @@
-Chapter 2: Synchronization
---------------------------
+Synchronization
+===============
 
 `git` has the option to sync changes from/to remote repositories. You might be encountering multiple users accessing the same repo for a lot of internal work based on development and thus, it gets difficult to sync changes made by all of them. It is thus necessary to capture all of these changes done into your system before you push your code to the remote repo.
 
