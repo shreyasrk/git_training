@@ -1,5 +1,5 @@
-Chapter 1
----------
+Getting Started
+===============
 
 We'll be delving with the details from here.
 
