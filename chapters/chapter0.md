@@ -1,5 +1,5 @@
-Chapter 0
----------
+Commonly used commands
+======================
 
 Lets begin with some frequently known commands and their descriptions:
 
