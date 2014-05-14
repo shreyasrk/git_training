@@ -38,9 +38,10 @@ Going a step ahead, here is a protocol strictly followed to sync changes across 
 
 1. Organizations have repos. Fork them. Refer Chapter-2 to how to work with remotes.
 2. Clone the forked repo to your system `origin`
-3. Create the branch that you'd be working with. `git checkout -b new-branch`
-4. The repo now is in your branch. Do all your changes [`git add`, `git commit`]
-5. Push this to `origin`: `git push origin new-branch`
+3. Checkout the branch you're assigned to work in. This is a crucial step as there would be a ton of changes between branches (master branch is never the same as it's branches) - `git checkout -b branch-to-work`.
+4. Create the branch that you'd be working with. `git checkout -b new-branch`. It will create a branch with specified name. Make sure it is unique across so as to not collide with existing ones.
+4. The repo now is in your branch. Do all your changes [Adding files, Code changes et.al]
+5. Push this to `origin`: `git push origin new-branch`. This will push the details to your forked repo. Always remember to push only to fork. Sync changes from `main` for any changes before pushing [Use either a `git fetch main` or `git pull main`].
 6. Initiate pull request to the `main` repo after you're convinced that 
 
 	* New branch exists in GitHub for forked repo.
